@@ -1,0 +1,244 @@
+aid: costar
+name: CoStar Group
+url: https://raw.githubusercontent.com/api-evangelist/costar/refs/heads/main/apis.yml
+description: >-
+  CoStar Group is the dominant commercial and residential real estate data,
+  analytics, and marketplace company. The portfolio spans the flagship CoStar
+  commercial real estate intelligence platform, LoopNet (CRE marketplace),
+  Apartments.com network (residential rentals, including ForRent.com and
+  Westside Rentals), Homes.com and Homesnap (for-sale residential), Ten-X
+  (online CRE auctions), BizBuySell (business-for-sale marketplace), STR
+  (hotel data), Visual Lease (lease management), Matterport (3D spatial
+  capture), and international properties including OnTheMarket (UK),
+  Emporis (Germany), and a controlling stake in Domain Group (Australia).
+  Distribution to partners is via enterprise data licensing, syndication
+  feeds, and brand-specific marketplace tooling rather than a public
+  self-serve developer portal.
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Commercial Real Estate
+  - Residential Real Estate
+  - Real Estate Data
+  - Marketplaces
+  - Analytics
+  - Listings
+  - PropTech
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: costar:costar
+    name: CoStar Commercial Real Estate Platform
+    description: >-
+      CoStar's flagship commercial real estate information platform covering
+      property, tenant, lease, sale, and market analytics across office,
+      industrial, retail, multifamily, and specialty CRE asset classes. Data is
+      licensed to enterprise customers and partners under contract.
+    humanURL: https://www.costar.com
+    baseURL: https://www.costar.com
+    tags:
+      - Commercial Real Estate
+      - Analytics
+      - Property Data
+    properties:
+      - type: Documentation
+        url: https://www.costar.com
+  - aid: costar:loopnet
+    name: LoopNet
+    description: >-
+      The largest commercial real estate marketplace in the United States,
+      surfacing CRE listings for sale and lease alongside CoStar-sourced
+      analytics.
+    humanURL: https://www.loopnet.com
+    baseURL: https://www.loopnet.com
+    tags:
+      - Commercial Real Estate
+      - Marketplace
+      - Listings
+    properties:
+      - type: Documentation
+        url: https://www.loopnet.com
+  - aid: costar:apartments-com
+    name: Apartments.com Network
+    description: >-
+      Residential rental marketplace network including Apartments.com,
+      ForRent.com, and Westside Rentals, providing listings, leads, and
+      advertising to multifamily owners and managers.
+    humanURL: https://www.apartments.com
+    baseURL: https://www.apartments.com
+    tags:
+      - Residential Rentals
+      - Multifamily
+      - Marketplace
+    properties:
+      - type: Documentation
+        url: https://www.apartments.com
+  - aid: costar:homes-com
+    name: Homes.com
+    description: >-
+      Residential for-sale and rental marketplace operating agent-first
+      branding and search, paired with the Homesnap mobile and agent tooling.
+    humanURL: https://www.homes.com
+    baseURL: https://www.homes.com
+    tags:
+      - Residential Real Estate
+      - For Sale
+      - Marketplace
+    properties:
+      - type: Documentation
+        url: https://www.homes.com
+  - aid: costar:homesnap
+    name: Homesnap
+    description: >-
+      Mobile residential real estate search and agent productivity application
+      that integrates with MLSs and Homes.com.
+    humanURL: https://www.homesnap.com
+    baseURL: https://www.homesnap.com
+    tags:
+      - Residential Real Estate
+      - Mobile
+      - MLS
+    properties:
+      - type: Documentation
+        url: https://www.homesnap.com
+  - aid: costar:ten-x
+    name: Ten-X
+    description: >-
+      Online commercial real estate transaction and auction platform for buyers
+      and sellers of CRE assets.
+    humanURL: https://www.ten-x.com
+    baseURL: https://www.ten-x.com
+    tags:
+      - Commercial Real Estate
+      - Auctions
+      - Transactions
+    properties:
+      - type: Documentation
+        url: https://www.ten-x.com
+  - aid: costar:bizbuysell
+    name: BizBuySell
+    description: >-
+      Online marketplace for buying and selling small and mid-sized
+      businesses, with broker tools and financing partners.
+    humanURL: https://www.bizbuysell.com
+    baseURL: https://www.bizbuysell.com
+    tags:
+      - Business For Sale
+      - Marketplace
+      - SMB
+    properties:
+      - type: Documentation
+        url: https://www.bizbuysell.com
+  - aid: costar:str
+    name: STR (Smith Travel Research)
+    description: >-
+      Hotel benchmarking, performance data, and analytics provider serving the
+      global lodging industry.
+    humanURL: https://str.com
+    baseURL: https://str.com
+    tags:
+      - Hospitality
+      - Hotel Data
+      - Benchmarking
+    properties:
+      - type: Documentation
+        url: https://str.com
+  - aid: costar:visual-lease
+    name: Visual Lease
+    description: >-
+      Lease management and lease accounting platform for corporate and real
+      estate tenants.
+    humanURL: https://visuallease.com
+    baseURL: https://visuallease.com
+    tags:
+      - Lease Management
+      - Lease Accounting
+      - Corporate Real Estate
+    properties:
+      - type: Documentation
+        url: https://visuallease.com
+  - aid: costar:matterport
+    name: Matterport
+    description: >-
+      3D spatial data capture platform used to digitise real estate, retail,
+      and built-environment spaces, integrated across CoStar's marketplaces.
+    humanURL: https://matterport.com
+    baseURL: https://matterport.com
+    tags:
+      - 3D Capture
+      - Spatial Data
+      - PropTech
+    properties:
+      - type: Documentation
+        url: https://matterport.com
+  - aid: costar:onthemarket
+    name: OnTheMarket
+    description: >-
+      UK residential property portal acquired by CoStar Group, providing for
+      sale and to let listings with agent tooling.
+    humanURL: https://www.onthemarket.com
+    baseURL: https://www.onthemarket.com
+    tags:
+      - Residential Real Estate
+      - United Kingdom
+      - Marketplace
+    properties:
+      - type: Documentation
+        url: https://www.onthemarket.com
+  - aid: costar:emporis
+    name: Emporis
+    description: >-
+      Global building data and imagery provider covering high-rise and
+      commercial structures.
+    humanURL: https://www.emporis.com
+    baseURL: https://www.emporis.com
+    tags:
+      - Building Data
+      - Imagery
+      - Real Estate
+    properties:
+      - type: Documentation
+        url: https://www.emporis.com
+  - aid: costar:domain-group
+    name: Domain Group
+    description: >-
+      Australian residential real estate marketplace and media company in which
+      CoStar Group acquired a majority stake.
+    humanURL: https://www.domain.com.au
+    baseURL: https://www.domain.com.au
+    tags:
+      - Residential Real Estate
+      - Australia
+      - Marketplace
+    properties:
+      - type: Documentation
+        url: https://www.domain.com.au
+  - aid: costar:lands-of-america
+    name: Land.com / Lands of America
+    description: >-
+      Land-for-sale marketplace network covering rural, ranch, recreational,
+      and development land in the United States.
+    humanURL: https://www.land.com
+    baseURL: https://www.land.com
+    tags:
+      - Land
+      - Marketplace
+      - Rural
+    properties:
+      - type: Documentation
+        url: https://www.land.com
+common:
+  - type: Website
+    url: https://www.costargroup.com
+  - type: CoStar
+    url: https://www.costar.com
+  - type: Investors
+    url: https://www.costargroup.com/investors
+  - type: News
+    url: https://www.costargroup.com/news
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/costar-group/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
