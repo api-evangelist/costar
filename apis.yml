@@ -229,6 +229,10 @@ apis:
       - type: Documentation
         url: https://www.land.com
 common:
+  - type: TrustCenter
+    url: security/costar-trust-center.yml
+  - type: DomainSecurity
+    url: security/costar-domain-security.yml
   - type: Website
     url: https://www.costargroup.com
   - type: CoStar
