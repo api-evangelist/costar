@@ -38,7 +38,7 @@ tags:
   - PropTech
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: costar:costar
     name: CoStar Commercial Real Estate Platform
