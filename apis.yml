@@ -124,6 +124,10 @@ apis:
     tags:
       - Commercial Real Estate
       - Auctions
+      - Transaction
+    tags_raw:
+      - Commercial Real Estate
+      - Auctions
       - Transactions
     properties:
       - type: Documentation
@@ -206,6 +210,10 @@ apis:
     humanURL: https://www.emporis.com
     baseURL: https://www.emporis.com
     tags:
+      - Building Data
+      - Imagery
+      - Real-Estate
+    tags_raw:
       - Building Data
       - Imagery
       - Real Estate
