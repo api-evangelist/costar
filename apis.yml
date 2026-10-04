@@ -161,6 +161,10 @@ apis:
     tags:
       - Business For Sale
       - Marketplace
+      - Small Business
+    tags_raw:
+      - Business For Sale
+      - Marketplace
       - SMB
     properties:
       - type: Documentation
@@ -231,11 +235,12 @@ apis:
     tags:
       - Building Data
       - Imagery
-      - Real-Estate
+      - Real Estate
     tags_raw:
       - Building Data
       - Imagery
       - Real Estate
+      - Real-Estate
     properties:
       - type: Documentation
         url: https://www.emporis.com
