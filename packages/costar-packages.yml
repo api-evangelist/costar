@@ -1,0 +1,17 @@
+generated: '2026-10-20'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/CoStarGroup
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (apartments.com,
+  bizbuysell.com, costar.com, costargroup.com, domain.com.au, emporis.com, finops/costar-finops.yml, homes.com, homesnap.com, land.com, linkedin.com,
+  loopnet.com, matterport.com, onthemarket.com, plans/costar-plans-pricing.yml, rate-limits/costar-rate-limits.yml, security/costar-domain-security.yml,
+  security/costar-trust-center.yml, str.com, ten-x.com, visuallease.com) or its accepted GitHub org (CoStarGroup).'
+packages:
+- name: costar
+  registry: pypi
+  url: https://pypi.org/project/costar/
+  language: Python
+  official: true
+  version: 0.1.1
+  published: '2019-10-31'
+  evidence: metadata names costar.com

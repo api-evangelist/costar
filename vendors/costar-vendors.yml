@@ -1,0 +1,86 @@
+generated: '2026-10-20'
+method: probed
+source: pre-flight dossier (docs platform, portal detections) + CNAME chains and response headers of the hosts apis.yml names
+registry: all/0-working/vendors.yml
+areas_vocabulary:
+- documentation
+- developer-portal
+- api-gateway
+- cdn
+- hosting
+- sdk-generation
+- api-collections
+- status-page
+- support
+- community
+- identity
+- mcp-hosting
+vendors:
+- vendor: akamai
+  name: Akamai
+  area: cdn
+  host: www.costargroup.com
+  evidence: cname:akamaiedge.net
+  signal: cname
+  confidence: high
+  kin_score: []
+- vendor: cloudflare
+  name: Cloudflare
+  area: cdn
+  host: matterport.com
+  evidence: header:cf-ray
+  signal: header
+  confidence: high
+  kin_score:
+  - https_enforced
+  - hsts
+- vendor: cloudfront
+  name: Amazon CloudFront
+  area: cdn
+  host: www.onthemarket.com
+  evidence: header:x-amz-cf-id
+  signal: header
+  confidence: high
+  kin_score: []
+- vendor: vercel
+  name: Vercel
+  area: hosting
+  host: matterport.com
+  evidence: header:x-vercel-id
+  signal: header
+  confidence: high
+  kin_score: []
+- vendor: wpengine
+  name: WP Engine
+  area: hosting
+  host: visuallease.com
+  evidence: header:x-powered-by:wp engine
+  signal: header
+  confidence: high
+  kin_score: []
+reliance:
+  areas_vendor_served:
+  - cdn
+  - hosting
+  vendor_count: 5
+  areas_observed: 12
+  share_of_observable_areas: 0.167
+  note: areas where a third party was DETECTED serving this provider; an area absent here was either self-run or not observed, and this script
+    cannot tell those apart
+checked:
+- 'docs-platform: no-docs-host'
+- www.costargroup.com (Website)
+- www.costar.com (baseURL)
+- www.loopnet.com (baseURL)
+- www.apartments.com (baseURL)
+- www.homes.com (baseURL)
+- www.homesnap.com (baseURL)
+- www.ten-x.com (baseURL)
+- www.bizbuysell.com (baseURL)
+- str.com (baseURL)
+- visuallease.com (baseURL)
+- matterport.com (baseURL)
+- www.onthemarket.com (baseURL)
+- www.emporis.com (baseURL)
+- www.domain.com.au (baseURL)
+- www.land.com (baseURL)

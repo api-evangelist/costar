@@ -1,0 +1,271 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 23
+  own: 3
+  other_domain: 18
+  platform: 2
+  roles:
+  - api
+  - other
+  - source
+  - website
+hosts:
+- host: api.costargroup.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: costargroup.com
+  role: api
+  relation: own
+- host: api.homesnap.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: homesnap.com
+  role: api
+  relation: other-domain
+- host: api.loopnet.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: loopnet.com
+  role: api
+  relation: other-domain
+- host: api.matterport.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: matterport.com
+  role: api
+  relation: other-domain
+- host: api.str.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: str.com
+  role: api
+  relation: other-domain
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: matterport.com
+  found_by:
+  - apis[]
+  - probed
+  - vendor-detect
+  types: []
+  serves:
+  - api
+  - docs
+  - cdn
+  - hosting
+  vendor: cloudflare
+  registrable_domain: matterport.com
+  role: other
+  relation: other-domain
+- host: str.com
+  found_by:
+  - apis[]
+  - probed
+  - well-known
+  types: []
+  serves:
+  - api
+  - docs
+  registrable_domain: str.com
+  role: other
+  relation: other-domain
+- host: trust.costargroup.com
+  found_by:
+  - pointer
+  types:
+  - Compliance
+  serves: []
+  registrable_domain: costargroup.com
+  role: other
+  relation: own
+- host: visuallease.com
+  found_by:
+  - apis[]
+  - probed
+  - vendor-detect
+  types: []
+  serves:
+  - api
+  - docs
+  - hosting
+  vendor: wpengine
+  registrable_domain: visuallease.com
+  role: other
+  relation: other-domain
+- host: www.apartments.com
+  found_by:
+  - apis[]
+  - probed
+  - well-known
+  types: []
+  serves:
+  - api
+  - docs
+  registrable_domain: apartments.com
+  role: other
+  relation: other-domain
+- host: www.bizbuysell.com
+  found_by:
+  - apis[]
+  - probed
+  - well-known
+  types: []
+  serves:
+  - api
+  - docs
+  registrable_domain: bizbuysell.com
+  role: other
+  relation: other-domain
+- host: www.costar.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - well-known
+  types:
+  - CoStar
+  serves:
+  - api
+  - docs
+  registrable_domain: costar.com
+  role: other
+  relation: other-domain
+- host: www.costargroup.com
+  found_by:
+  - pointer
+  - probed
+  - vendor-detect
+  types:
+  - Website
+  - Investors
+  - News
+  serves:
+  - cdn
+  vendor: akamai
+  registrable_domain: costargroup.com
+  role: website
+  relation: own
+- host: www.domain.com.au
+  found_by:
+  - apis[]
+  - probed
+  types: []
+  serves:
+  - api
+  - docs
+  registrable_domain: domain.com.au
+  role: other
+  relation: other-domain
+- host: www.emporis.com
+  found_by:
+  - apis[]
+  - probed
+  types: []
+  serves:
+  - api
+  - docs
+  registrable_domain: emporis.com
+  role: other
+  relation: other-domain
+- host: www.homes.com
+  found_by:
+  - apis[]
+  - probed
+  - well-known
+  types: []
+  serves:
+  - api
+  - docs
+  registrable_domain: homes.com
+  role: other
+  relation: other-domain
+- host: www.homesnap.com
+  found_by:
+  - apis[]
+  - probed
+  - well-known
+  types: []
+  serves:
+  - api
+  - docs
+  registrable_domain: homesnap.com
+  role: other
+  relation: other-domain
+- host: www.land.com
+  found_by:
+  - apis[]
+  - probed
+  types: []
+  serves:
+  - api
+  - docs
+  registrable_domain: land.com
+  role: other
+  relation: other-domain
+- host: www.linkedin.com
+  found_by:
+  - pointer
+  types:
+  - LinkedIn
+  serves: []
+  registrable_domain: linkedin.com
+  role: other
+  relation: platform
+- host: www.loopnet.com
+  found_by:
+  - apis[]
+  - probed
+  - well-known
+  types: []
+  serves:
+  - api
+  - docs
+  registrable_domain: loopnet.com
+  role: other
+  relation: other-domain
+- host: www.onthemarket.com
+  found_by:
+  - apis[]
+  - probed
+  - vendor-detect
+  types: []
+  serves:
+  - api
+  - docs
+  - cdn
+  vendor: cloudfront
+  registrable_domain: onthemarket.com
+  role: other
+  relation: other-domain
+- host: www.ten-x.com
+  found_by:
+  - apis[]
+  - probed
+  - well-known
+  types: []
+  serves:
+  - api
+  - docs
+  registrable_domain: ten-x.com
+  role: other
+  relation: other-domain

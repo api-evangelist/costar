@@ -1,3 +1,20 @@
+generated: '2026-10-20'
+method: searched
+source:
+- https://zapier.com/apps/costar/integrations
+- https://zapier.com/apps/costar-group/integrations
+- https://n8n.io/integrations/costar/
+- https://composio.dev/toolkits/costar
+- https://monid.ai/tools/costar
+checked:
+- https://services.reso.org/orgs?showStats=true&showEndorsements=true
+- https://composio.dev/toolkits/costar
+- https://monid.ai/tools/costar
+- https://n8n.io/integrations/costar/
+- https://zapier.com/apps/costar-group/integrations
+- https://zapier.com/apps/costar/integrations
+summary: null
+marketplace_apps: []
 edges:
 - partner_name: RESO
   partner: reso
@@ -19,7 +36,4 @@ edges:
     summary_url: https://certification.reso.org/summary/T00000196
     detected_by: sweep-real-estate.py
     detected: '2026-10-14'
-generated: '2026-10-13'
-method: searched
-checked:
-- https://services.reso.org/orgs?showStats=true&showEndorsements=true
+templates: []
